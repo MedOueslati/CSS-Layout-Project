@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-size: .9375rem;
+    font-weight: 400;
+    box-sizing: inherit;
+    
+}
+/* Navcss */
+h1 {
+    color: #00b39b;;
+}
+.mysection {
+    padding-top:10px ;
+}
+.fixed-top {
+    position: fixed;
+    background-color: hsla(0,0%,100%,.98);
+}
+.navbar-nav {
+    padding-right: 168px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.navbar-brand img {
+    margin-left:155px ;
+}
+.nav-link {
+    display: flex;
+}
+.nav-link:hover {
+    color: #00b39b;
+}
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #00b39b;
+}
+#icon1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+/* health css */
+.healthcare h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /* color:#00b39b ; */
+    font-family: 'Work Sans' ,Arial,sans-serif; 
+    font-size: 2.125rem;
+
+}
+.healthcare {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.healthcare p {
+    color: #747474;
+    font-size: 16px;
+}
+
+/* learning css  */
+/* Card css */
+.container-grid {
+    display: grid;
+    width: 960px;
+    margin: auto;
+    padding-top: 60px;
+
+}
+.card-img-top  {
+    width: 24px;
+    height: 24px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+.card p {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.card1 {
+    background-color:#00ccb1;
+}
+.card2 {
+    background-color: #3d83df;
+}
+.card3 {
+    background-color: #1b2734;
+}
+.card-group {
+    display: flex;
+    column-gap: 10px;
+}
+.card-title{
+    color: white;
+}
+.form-select {
+    width: 167px;
+    height: 30px;
+    margin-top: 10px;
+    text-transform: none;
+    text-decoration: underline;
+    background-position: right 0.75rem center;
+    background-size: 134px 12px;
+    
+}
+
+select {
+    border: 0px;
+    outline: 0px;
+    
+}
+.form1:focus {
+    outline: 0;
+    box-shadow: none;
+    
+}
+.form2:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.form3:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.form4:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+
+select option {
+    margin: 40px;
+    background:white;
+    color: black;
+    text-shadow: white;
+  }
+
+.form1 {
+    background-color: #00ccb1;
+    border: none;
+    color: #fff;
+}
+.form2 {
+    background-color: #3D83DF;
+    border: none;
+    color: #fff;
+}
+.form3 {
+    background-color: #1b2734;
+    border: none;
+    color: #fff;
+}
+.form4 {
+    background-color: #1b2734;
+    border: none;
+    color: #fff;
+}
+
+
+/* Brand css */
+.brand h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    font-family: 'Work Sans' ,Arial,sans-serif; 
+    
+} 
+
+
+
+
+
+
+
+
+
+.grid h1 {
+    font-size: 1.625em;
+    font-family: 'Work Sans' ,Arial,sans-serif; 
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.statssection {
+    display: grid;
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: #e5faf8;
+    margin-top: 60px;
+
+}
+
+.grid {
+    width: 960px;
+    margin: auto;
+}
+
+.imgstats {
+    height: 323px;
+    padding-left: 332px;
+
+}
+.container-grid2{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding-top: 60px;
+    
+}
+.container-grid2 h2 {
+    font-size: 2.1428571429em;
+    color: #00B3A8;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: center;
+}
+.container-grid2 p {
+    text-align: center;
+}
+.hardimg {
+    margin-right:655px;
+}
+
+.p-2 h6 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.d-flex img {
+    border-radius: 15px ;
+}
+.btn {
+    float: right;
+    margin: -35px 13px 0px 0px;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+
+  }
+.text {
+    margin-top: 100px;
+}
+  .text h1 {
+    text-align: center;
+  }
+  .text button {
+    color: red;
+  }
+
+
+
+
+
+/* Footer */
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.main-footer .section__inner,.main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
+
+.main-footer p {
+    margin-bottom: .4em;
+}
+
