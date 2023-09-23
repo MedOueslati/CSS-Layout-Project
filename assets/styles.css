@@ -5,7 +5,21 @@
     font-weight: 400;
     box-sizing: inherit;
     
+}   
+
+.btn:hover{
+    background-color: #3d83df !important;
+    color: white !important;
+    
 }
+.btn:active {
+ 
+   background-color: #3d83df !important;
+    color: white !important;
+
+  
+}
+
 /* Navcss */
 h1 {
     color: #00b39b;;
@@ -54,7 +68,7 @@ h1 {
     /* color:#00b39b ; */
     font-family: 'Work Sans' ,Arial,sans-serif; 
     font-size: 2.125rem;
-
+    
 }
 .healthcare {
     width: 960px;
@@ -74,14 +88,14 @@ h1 {
     width: 960px;
     margin: auto;
     padding-top: 60px;
-
+    
 }
 .card-img-top  {
     width: 24px;
     height: 24px;
     padding-top: 20px;
     padding-left: 15px;
-
+    
 }
 .card p {
     padding-top: 25px;
@@ -107,7 +121,11 @@ h1 {
     color: white;
 }
 .form-select {
-    width: 167px;
+    background-image: url("img/arrow.svg") !important;
+background-size: 20px !important; /* Adjust the size as needed */
+background-repeat: no-repeat !important;
+/* background-position: right center !important; */
+    width: 110px;
     height: 30px;
     margin-top: 10px;
     text-transform: none;
@@ -146,7 +164,7 @@ select option {
     background:white;
     color: black;
     text-shadow: white;
-  }
+}
 
 .form1 {
     background-color: #00ccb1;
@@ -201,7 +219,7 @@ select option {
     overflow: hidden;
     background-color: #e5faf8;
     margin-top: 60px;
-
+    
 }
 
 .grid {
@@ -212,7 +230,7 @@ select option {
 .imgstats {
     height: 323px;
     padding-left: 332px;
-
+    
 }
 .container-grid2{
     display: flex;
@@ -256,17 +274,18 @@ select option {
     font-weight: 700;
     letter-spacing: .04em;
     font-size: .75rem;
-
-  }
+    
+}
 .text {
     margin-top: 100px;
 }
-  .text h1 {
+.text h1 {
     text-align: center;
-  }
-  .text button {
+}
+.text button {
     color: red;
-  }
+}
+
 
 
 
