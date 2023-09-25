@@ -230,7 +230,7 @@ select option {
 
 .imgstats {
     height: 323px;
-    padding-left: 332px;
+    padding-left: 137px;
     
 }
 .container-grid2{
@@ -278,13 +278,27 @@ select option {
     
 }
 .text {
+    display: flex;
     margin-top: 100px;
+    justify-content: center;
 }
-.text h1 {
-    text-align: center;
-}
+
 .text button {
-    color: red;
+
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    margin-top: 20px;
+    margin-left: 188px;
+    margin-bottom:112px;
+    background: #3d83df;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+
 }
 
 
